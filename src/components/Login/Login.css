@@ -1,0 +1,45 @@
+.google{
+    color: red;
+}
+.login-area{
+    max-width: 600px;
+    min-width: 300px !important;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 15px 0 #D70F64;
+    border-radius: 10px;
+}
+.login-title{
+    text-align: center;
+    color: #D70F64;
+    margin:20px 0;
+}
+.login-from{
+    width: 80%;
+    margin: 50px auto 30px;
+    border: 1px solid lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-title{
+    font-weight: bolder;
+    margin-bottom: 35px;
+    text-align: left;
+}
+.ggl-btn{
+   background-color: #E2E6EA !important;
+}
+.ggl-btn:hover{
+    background-color: #ff67a8 !important;
+    color: white !important;
+}
+@media only screen and (max-width: 668px) {
+    .login-area{
+        max-width: 300px;
+    }
+    .login-title{
+        font-size: 24px;
+    }
+  }
